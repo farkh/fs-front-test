@@ -35,6 +35,5 @@ export const isSecurityCodeValid = (securityCode) => {
 };
 
 export const isCardholderNameValid = (name) => {
-	// return /^[a-zA-Z]+$/.test(name);
-	return true;
+	return name.length > 2;
 };
