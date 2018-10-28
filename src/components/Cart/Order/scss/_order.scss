@@ -1,0 +1,98 @@
+.order {
+
+	&__window {
+		width: 700px;
+		height: 600px;
+		border-radius: 5px;
+		background: $white;
+		display: flex;
+		box-shadow: 0 2px 18px 0 rgba(0, 0, 0, .07);
+	}
+	
+	&__form {
+		flex: 1;
+		border-radius: 5px 0 0 5px;
+		padding: 20px 40px;
+	}
+
+	&__tabs {
+		display: flex;
+	}
+	
+	&__summary {
+		width: 300px;
+		background-color: $summary-bgColor;
+		border-radius: 0 5px 5px 0;
+		position: relative;
+		padding: 20px 0;
+	}
+
+	&__list {
+		max-height: 350px;
+		overflow-y: auto;
+	}
+
+	&__amount {
+		padding: 15px 10px 0;
+		font-size: .75em;
+	}
+
+	&__copyright {
+		font-size: 10px;
+		text-align: center;
+		width: 100%;
+		position: absolute;
+		bottom: 15px;
+		color: #9C9C9C;
+
+		a {
+			color: #9C9C9C;
+		}
+	}
+
+	&__dimmer {
+		z-index: 1000;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: rgba(255, 255, 255, .7);
+	}
+
+	&__success {
+		padding: 40px 0;
+
+		&-title {
+			color: #5A1094;
+			font-size: 1.625em;
+			font-weight: 300;
+			margin-bottom: 30px;
+		}
+
+		&-number {
+			font-weight: 500;
+			color: #2B2525;
+		}
+
+		&-text {
+			color: #2B2525;
+			margin-bottom: 30px;
+		}
+
+		&-email {
+			color: #5A1094;
+		}
+
+		&-date {
+			font-weight: 700;
+		}
+
+		&-link {
+			font-size: .8125em;
+			color: #5A1094;
+			text-decoration: underline;
+			cursor: pointer;
+		}
+	}
+}

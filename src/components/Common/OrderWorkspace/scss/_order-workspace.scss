@@ -1,0 +1,9 @@
+.order {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	// 50px - height of header
+	height: calc(100vh - 50px);
+	width: 100vw;
+}

@@ -1,0 +1,23 @@
+.order-tabs {
+
+	&__tab {
+		font-size: 12px;
+		color: #979797;
+		margin-right: 10px;
+		cursor: pointer;
+		font-weight: 300;
+
+		&--active {
+			color: #5A1094;
+		}
+
+		&--prev {
+			text-decoration: underline;
+		}
+	}
+
+	&__icon {
+		color: #979797;
+		margin-right: 10px !important;
+	}
+}

@@ -1,0 +1,20 @@
+.summary {
+
+	&__header {
+		display: flex;
+		align-items: center;
+		margin-bottom: 15px;
+		padding: 0 10px;
+	}
+
+	&__title {
+		font-size: 1em;
+		color: $main-text-color;
+	}
+
+	&__link {
+		margin-left: auto;
+		color: $grey-text-color;
+		font-size: .75em;
+	}
+}

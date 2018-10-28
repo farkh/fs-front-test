@@ -1,0 +1,72 @@
+.header {
+	background: $white;
+	color: $main-text-color;
+	border-bottom: 1px solid $purple-borderColor;
+	height: 50px;
+	box-sizing: border-box;
+
+	display: flex;
+	align-items: center;
+	padding: 0 10%;
+	font-weight: 300;
+
+	&__logo {
+		display: flex;
+		align-items: center;
+		font-size: 1.125em;
+		cursor: pointer;
+
+		img {
+			margin-right: 10px;
+			min-width: 26px;
+		}
+	}
+
+	&__cart {
+		display: flex;
+		align-items: center;
+		margin-left: auto;
+		color: $secondary-text-color;
+		font-size: .9375em;
+		cursor: pointer;
+
+		&:hover {
+			text-decoration: underline;
+		}
+		
+		&-text {
+			margin-right: 5px;
+		}
+
+		&-icon {
+			display: flex;
+			align-items: center;
+			position: relative;
+			min-height: 16px;
+			min-width: 21px;
+		}
+	}
+}
+
+.cart-badge {
+	width: 14px;
+	height: 14px;
+	background: $pink-bgColor;
+	border: 1px solid $white;
+	border-radius: 50%;
+	color: $white;
+	font-weight: bolder;
+
+	position: absolute;
+	right: -7px;
+	top: -7px;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	&__count {
+		font-size: 12px;
+		line-height: 12px;
+	}
+}
